@@ -1,0 +1,16 @@
+[package]
+name = "Job-Board-with-Skill-Verification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x4dcb1c51a6380a2aa79d08c2bc2ab37d929fa1854f9ce799ca3ab04470c50f98'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
